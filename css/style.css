@@ -58,11 +58,12 @@ p {
   margin: 140px 0 0 0;
 }
 
-/*.iphone-good {
-  margin: -310px 0 0 535px;
-  z-index: 99997 !important;
+.good {
+  /* margin: -310px 0 0 535px; */
+  /* z-index: 99997 !important; */
+  opacity: 0;
 }
-
+/*
 .meat-good {
   width: 160px;
   height: 245px;
