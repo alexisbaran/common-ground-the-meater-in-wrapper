@@ -3,6 +3,7 @@ $(document).ready (function () {
     $(['.good','.bad','.okay']).map(function (i,cl) {
         $(cl+'.hidden-meater').click(function () {
             if ($(cl+'.hidden').css('opacity') == 0) {
+                // reset slider to first slide when switching back
                 sl = eval(cl.slice(1) + '_slidr');
                 sl.timing('linear', '0.0s');
                 sl.slide("one");
