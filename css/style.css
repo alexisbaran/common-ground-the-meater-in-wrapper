@@ -69,7 +69,7 @@ p {
     opacity :0;
 }
 
-/* 
+/*
 .meat-good {
   width: 160px;
   height: 245px;
@@ -156,31 +156,55 @@ p {
   margin-top: 156px;
 }
 
+.themeater:hover {
+  position: absolute;
+  margin-top: 156px;
+  /*opacity: 1;*/
+}
+
 .hidden-meater {
-    opacity :0;
-    height : 600px;
-    width : 300px;
+    opacity: 0;
+    background:rgba(70,100,200,0.4);
+    z-index: 999;
 }
 
 .hidden-meater:hover {
-    opacity : 1;
+    opacity: 1;
 }
 
 #goodmeater {
+  width: 388px;
+  height: 290px;
   position: absolute;
-  margin-left: 175px;
+  margin-left: 52px;
+}
+
+#goodmeater img {
+
 }
 
 #okaymeater {
+  width: 190px;
+  height: 290px;
   position: absolute;
   margin-left: 531px;
 }
 
 #badmeater {
+  width: 388px;
+  height: 290px;
   position: absolute;
-  margin-left: 887px;
+  margin-left: 780px;
 }
 
+
+/*mydiv > mymeater{
+    display: none;
+}
+
+mydiv:hover > mymeater{
+    display: block;
+}*/
 
 /*******Richard's code ends here*******/
 
@@ -252,12 +276,4 @@ aside[id="slidr-imgbad-breadcrumbs"] .slidr-breadcrumbs li.active {
   height: 7px !important;
   margin: 3px !important;
   background-color: rgba(255, 255, 255, 1)
-}
-
-mydiv > mymeater{
-    display: none;
-}
-
-mydiv:hover > mymeater{
-    display: block;
 }
