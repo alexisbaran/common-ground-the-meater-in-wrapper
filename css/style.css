@@ -154,12 +154,12 @@ p {
 .themeater {
   position: absolute;
   margin-top: 156px;
-  height : 300px;
-  width : 500px;
 }
 
 .hidden-meater {
     opacity :0;
+    height : 600px;
+    width : 300px;
 }
 
 .hidden-meater:hover {
