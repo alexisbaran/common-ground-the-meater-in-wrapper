@@ -156,6 +156,16 @@ p {
   margin-top: 156px;
 }
 
+.hidden-meater {
+    opacity :0;
+    height : 600px;
+    width : 300px;
+}
+
+.hidden-meater:hover {
+    opacity : 1;
+}
+
 #goodmeater {
   position: absolute;
   margin-left: 175px;
