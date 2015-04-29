@@ -63,6 +63,23 @@ p {
   /* z-index: 99997 !important; */
   opacity: 0;
 }
+
+
+.hidden {
+    opacity :0;
+}
+
+/* .bad { */
+/*     opacity: 0; */
+/* } */
+
+/* .okay { */
+/*     opacity: 0; */
+/* } */
+
+/* .bad { */
+/*     opacity: 0; */
+/* } */
 /*
 .meat-good {
   width: 160px;
