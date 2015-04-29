@@ -58,11 +58,11 @@ p {
   margin: 140px 0 0 0;
 }
 
-.good {
-  /* margin: -310px 0 0 535px; */
-  /* z-index: 99997 !important; */
-  opacity: 0;
-}
+/* .good { */
+/*   /\* margin: -310px 0 0 535px; *\/ */
+/*   /\* z-index: 99997 !important; *\/ */
+/*   opacity: 0; */
+/* } */
 
 
 .hidden {
@@ -114,6 +114,7 @@ p {
 .iphone-wrapper {
   float: left;
   margin-left: 175px;
+  z-index: 9999;
 }
 .meat-slider {
   position: absolute;
@@ -165,11 +166,15 @@ p {
 .hidden-meater {
     opacity: 0;
     background:rgba(70,100,200,0.4);
-    z-index: 999;
+    z-index: 100;
 }
 
 .hidden-meater:hover {
     opacity: 1;
+}
+
+.hidden-meater img {
+    z-index: -100;
 }
 
 #goodmeater {
@@ -180,7 +185,6 @@ p {
 }
 
 #goodmeater img {
-
 }
 
 #okaymeater {
