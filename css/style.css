@@ -154,6 +154,16 @@ p {
 .themeater {
   position: absolute;
   margin-top: 156px;
+  height : 300px;
+  width : 500px;
+}
+
+.hidden-meater {
+    opacity :0;
+}
+
+.hidden-meater:hover {
+    opacity : 1;
 }
 
 #goodmeater {
