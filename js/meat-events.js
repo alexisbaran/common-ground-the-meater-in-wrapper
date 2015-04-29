@@ -6,10 +6,11 @@ $(document).ready (function () {
             $('.hidden-meater img').css({opacity: 1});
             $(cl+'.hidden').css({opacity : 1});
             $(cl+'.hidden-meater img').css({opacity: 0});
+            eval(cl.slice(1) + '_slidr.slide("one")');
         });
     });
     
     $('.themeater').click(function () {
         $(this).css({opacity : 1});
-    });
+    });    
 });

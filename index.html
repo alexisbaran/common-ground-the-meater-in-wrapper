@@ -217,7 +217,7 @@
 
 <script type="text/javascript" src="js/slidr.js"></script>
 <script>
-  slidr.create('slidr-imggood', {
+  var good_slidr = slidr.create('slidr-imggood', {
   before: function(e) { comment_good.slide(e.in.slidr); },
   after: function(e) { console.log('out: ' + e.out.slidr); },
   breadcrumbs: true,
@@ -231,7 +231,8 @@
   timing: { 'linear': '0.5s ease-in' },
   touch: true,
   transition: 'linear'
-  }).start();
+  });
+  good_slidr.start();
 </script>
 
 <script type="text/javascript" src="js/slidr.js"></script>
@@ -256,7 +257,7 @@
 
 <script type="text/javascript" src="js/slidr.js"></script>
 <script>
-  slidr.create('slidr-imgokay', {
+  var okay_slidr = slidr.create('slidr-imgokay', {
   before: function(e) { comment_okay.slide(e.in.slidr); },
   after: function(e) { console.log('out: ' + e.out.slidr); },
   breadcrumbs: true,
@@ -270,7 +271,8 @@
   timing: { 'linear': '0.5s ease-in' },
   touch: true,
   transition: 'linear'
-  }).start();
+  });
+  okay_slidr.start();
 </script>
 
 <script type="text/javascript" src="js/slidr.js"></script>
@@ -295,7 +297,7 @@
 
 <script type="text/javascript" src="js/slidr.js"></script>
 <script>
-  slidr.create('slidr-imgbad', {
+  var bad_slidr = slidr.create('slidr-imgbad', {
   before: function(e) { comment_bad.slide(e.in.slidr); },
   after: function(e) { console.log('out: ' + e.out.slidr); },
   breadcrumbs: true,
@@ -309,7 +311,8 @@
   timing: { 'linear': '0.5s ease-in' },
   touch: true,
   transition: 'linear'
-  }).start();
+  });
+  bad_slidr.start();
 </script>
 
 <script type="text/javascript" src="js/slidr.js"></script>
