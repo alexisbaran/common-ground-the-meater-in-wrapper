@@ -4,6 +4,7 @@ $(document).ready (function () {
         $(cl+'.hidden-meater').click(function () {
             $('.hidden').css({opacity : 0});
             $(cl+'.hidden').css({opacity : 1});
+            $(cl+'.hidden-meater img').css({opacity: 0});
         });
     });
     
