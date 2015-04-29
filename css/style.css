@@ -58,11 +58,11 @@ p {
   margin: 140px 0 0 0;
 }
 
-.good {
-  /* margin: -310px 0 0 535px; */
-  /* z-index: 99997 !important; */
-  opacity: 0;
-}
+/* .good { */
+/*   /\* margin: -310px 0 0 535px; *\/ */
+/*   /\* z-index: 99997 !important; *\/ */
+/*   opacity: 0; */
+/* } */
 
 
 .hidden {
@@ -180,7 +180,6 @@ p {
 }
 
 #goodmeater img {
-
 }
 
 #okaymeater {
