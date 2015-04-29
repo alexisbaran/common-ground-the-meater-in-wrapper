@@ -162,6 +162,27 @@ p {
   color: #341d0d;
 }
 
+.themeater {
+  position: absolute;
+  margin-top: 156px;
+}
+
+#goodmeater {
+  position: absolute;
+  margin-left: 175px;
+}
+
+#okaymeater {
+  position: absolute;
+  margin-left: 531px;
+}
+
+#badmeater {
+  position: absolute;
+  margin-left: 887px;
+}
+
+
 /*******Richard's code ends here*******/
 
 
