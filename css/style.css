@@ -48,6 +48,7 @@ p {
   color: #986743;
 }
 
+<<<<<<< HEAD
 .meaterplay {
   width: 1200px;
   height: 800px;
@@ -112,6 +113,11 @@ p {
 .container {
   width: 1200px;
   height: 800px;
+=======
+.container {
+  width: 1200px;
+  height: 800px;
+>>>>>>> origin/master
   background: url(../img/Background.jpg) no-repeat bottom center scroll;
   position: absolute;
 }
@@ -267,9 +273,12 @@ p {
   margin-left: 107px;
 }
 
+<<<<<<< HEAD
 #slidr-commentbad {
   text-align: right;
 }
+=======
+>>>>>>> origin/master
 
 
 /*mydiv > mymeater{
